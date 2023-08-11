@@ -1,0 +1,63 @@
+.container-tarefas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    margin-top: 50px;
+}
+.container-tarefas h1{
+    margin-bottom: 30px;
+}
+textarea{
+    height: 100px;
+    padding: 8px;
+}
+article{
+    margin-top: 40px;
+    max-width: 600px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(18,18,18, 0.50);
+    border-radius: 5px;
+} 
+article p{
+    margin-bottom: 8px;
+}
+article button{
+    margin-right: 8px;
+    border: 0;
+    border-radius: 4px;
+    padding: 4px;
+}
+.btn-editar{
+    background-color: #3366ff;
+    color: #fff;
+}
+.btn-concluir{
+    color: #fff;
+    background-color: transparent;
+    transition: all 0.5s;
+}
+.btn-concluir:hover{
+    background-color: teal;
+
+}
+.btn-sair{
+    position: absolute;
+    bottom: 6%;
+    left: 4%;
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+    border: 0;
+    font-weight: bold;
+    background-color: rgba(219, 38, 41, 0.30);
+    color: #fff;
+    transition: all 0.5s;
+}
+.btn-sair:hover{
+    background-color: rgba(219, 38, 41, 1);
+
+}
